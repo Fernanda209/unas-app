@@ -1,2 +1,2 @@
 export const PORT = process.env.PORT || 3000
-export const MONGO_URL = process.env.MONGO_URL || ''
+export const MONGO_URL = process.env.MONGO_URL || 'mongodb://mongo:ijvR8T25XBIgO04SeUbHf69kF13m7Gxh@sjc1.clusters.zeabur.com:31647/unasapp?authSource=admin'

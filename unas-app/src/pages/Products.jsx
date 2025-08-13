@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL
 
 function Products() {
   const [productos, setProductos] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:3000/products") // Cambia la URL si usas un proxy
+    fetch(`${BACKEND_URL}/products`) // Cambia la URL si usas un proxy
       .then((res) => res.json())
       .then((data) => {
         setProductos(data);
