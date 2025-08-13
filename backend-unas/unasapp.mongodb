@@ -1,0 +1,29 @@
+db.createCollection("products");
+
+db.products.insertMany([
+  {
+    name: "Esmalte Rojo Clásico",
+    price: 120,
+    category: "esmalte"
+  },
+  {
+    name: "Gelish Rosa Pastel",
+    price: 180,
+    category: "gelish"
+  },
+  {
+    name: "Kit de Decoración de Uñas",
+    price: 250,
+    category: "accesorios"
+  },
+  {
+    name: "Removedor de Gelish",
+    price: 90,
+    category: "cuidado"
+  },
+  {
+    name: "Top Coat Brillante",
+    price: 110,
+    category: "acabado"
+  }
+]);

@@ -1,0 +1,29 @@
+#home {
+    font-size: 28px;
+    color: white;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar button {
+    color: white;
+    background-color: white;
+}
+
+.navbar-nav:hover{
+    color: rgb(230, 8, 119); 
+}
+
+.nav-link:hover{
+    color: rgb(230, 8, 119); 
+}
+
+#home:hover {
+    color: rgb(230, 8, 119);
+}
